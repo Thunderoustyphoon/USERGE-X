@@ -227,12 +227,16 @@ class Bot_Alive:
     @staticmethod
     def alive_info() -> str:
         alive_info_ = f"""
-<a href="https://telegram.dog/x_xtests"><b>USERGE-X</a> is Up and Running.</b>
+<a href="https://t.me/Stormshadow3000"><b>Stone Monkey</a> Bot is now alive.</b>
+          
+         My God i am awake tell me what u wish for
 
   🐍   <b>Python :</b>    <code>v{versions.__python_version__}</code>
   🔥   <b>Pyrogram :</b>    <code>v{versions.__pyro_version__}</code>
-  🧬   <b>𝑿 :</b>    <code>v{get_version()}</code>
-
+           The Stronger our opponents are,
+              The More fun it'll be!
+        
+       <b> My Family has a Saying Do what you want </b>
 <b>{Bot_Alive._get_mode()}</b>    <code>|</code>    🕔  <b>{userge.uptime}</b>
 """
         return alive_info_
@@ -250,7 +254,7 @@ class Bot_Alive:
         buttons = [
             [
                 InlineKeyboardButton(text="🔧  SETTINGS", callback_data="settings_btn"),
-                InlineKeyboardButton(text="⚡  REPO", url=Config.UPSTREAM_REPO),
+                InlineKeyboardButton(text="⚡  Nexus Network", url="https://t.me/Nexus_Network"),
             ]
         ]
         return InlineKeyboardMarkup(buttons)
